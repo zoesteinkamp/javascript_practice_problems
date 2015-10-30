@@ -44,9 +44,14 @@ PalindromeTwo("a war at tarawa") // returns true
 //parameters, 0 will not be entered, and no array will contain all the same elements.
 
 
-function ArithGeoII(arr) {
-
-    
-  return arr;
+function ArithGeoII(arr){
+  if(arr[i+1]-arr[i]===arr[i+2]-arr[i+1]){
+    console.log(geo)
+  }else if(arr[i+1]/arr[i] ===arr[i+2]/arr[i+1]){
+    console.log(ar)
+  }else{
+    return -1
+  }
 
 }
+ArithGeoII([2,4,6,8])
